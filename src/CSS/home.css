@@ -1,0 +1,91 @@
+.category__header{
+    text-align: left;
+    margin-left:100px;
+    margin-top:80px;
+    width: 300px;
+    font: normal 400 42px 'Raleway';
+    text-transform: capitalize;
+    color:#1D1F22;
+}
+
+.product__list_container{
+        display: grid;
+        justify-content: space-between;
+        margin-top:100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        width: auto;
+        row-gap: 100px;
+        column-gap: 40px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        
+}
+
+.product__card,
+.product__card__out__of_Stock{
+    width: 386px;
+    height: 444px;
+    cursor: pointer;
+    text-align: center;
+    font: normal 300 18px 'Raleway';
+    color:#1D1F22;
+}
+.product__card__out__of_Stock{
+    opacity: 0.5; 
+}
+.product__card > a,
+.product__card__out__of_Stock > a{
+    text-decoration: none;
+    color:#1D1F22;
+}
+.turnOFF__stock_message{
+    display: none; 
+}
+.turnON__stock_message{
+    position: absolute;
+    margin:auto;
+    text-align: center;
+    line-height: 400px;
+    color: #8D8F9A;
+    font: 400 24px 'Raleway';
+    margin: 150px 60px;
+
+}
+
+.product__cart__icon{
+    position: relative;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    float: right;
+    right: 30px;
+    background-color:  #5ECE7B;
+    border-radius: 50%;
+    margin-top: -35px;
+    z-index: 9;
+    display:none;
+}
+
+.product__images{
+    width: 354px;
+    height: 330px;
+    padding: 16px 16px 0px 16px;
+    object-fit: cover;
+    object-position: 50% 25%;
+}
+.product__name,
+.product__price{
+    text-align: left;
+    text-decoration:none;
+    padding: 0px 0px 0px 16px;
+}
+.product__price{
+    font: normal 500 18px 'Raleway';
+    color: #1D1F22;
+}
+.product__card:hover .product__cart__icon{
+    display: block;
+}
+.product__card:hover{box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);}
+.product__card__out__of_Stock:hover{box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);}

@@ -1,0 +1,141 @@
+.cart__header{
+    margin:80px 0px 55px 100px;
+    font:normal 700 32px 'Raleway'
+}
+
+.cart__container{
+    font: normal 300 18px 'Raleway';
+    padding:20px 0;
+    margin: 0px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #FAFAFA;
+    border-bottom: 3px solid #FAFAFA;
+}
+
+
+.cart__product_price{
+    font: normal 700 24px 'Raleway';
+    margin:20px 0px 20px 0px;
+    padding: 0;
+}
+.cart__product_brandname{
+    font:normal 600 30px 'Raleway';
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.cart__product_name{
+    margin-top:16px;
+    margin-bottom:20px;
+    font:normal 400 30px 'Raleway';
+}
+.product__attribute_name{
+    margin: 20px 0 8px 0;
+    text-transform: uppercase;
+    font: normal 700 18px 'Roboto Condensed';
+}
+
+.custom__attr_options{
+    background-color: white;
+    margin-right: 10px;
+    width: 63px;
+    height: 45px;
+}
+.selected__attr_options{
+    background-color: black;
+    margin-right: 10px;
+    width: 63px;
+    height: 45px;
+    color: white;
+    
+}
+.color__options{
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+}
+.selected__color_options{
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+    padding: 1px;
+    outline: 1px solid #5ECE7B;
+    outline-offset: 2px;
+    border:none
+}
+.cart__product_right{
+    display: flex;
+    text-align: center;   
+}
+.cart__count_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+.cart__increment_btn,
+.cart__decrement_btn{
+    width:45px;
+    height:45px;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.cart__increment_btn:active{
+    background-color: black;
+    color: white;
+}
+.cart__decrement_btn:active{
+    background-color: black;
+    color: white;
+}
+.empty__cart_title{
+    text-align: center;
+    font-style: 'Raleway';
+}
+.order__detail_container{
+    width: 80%;
+    margin-left:100px;
+    font: normal 400 24px 'Raleway';
+    padding: 0;
+}
+.order__submit_btn{
+    text-align: center;
+    width: 279px;
+    height: 43px;
+    font:normal 600 14px 'Raleway';
+    background-color: #5ECE7B;
+    text-transform: uppercase;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+.previus__btn,
+.next__btn{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+    border: none;
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+    margin-top: 250px;
+    cursor: pointer;
+}
+.previus__btn{
+    margin-left: -70px;
+
+}
+.next__btn{
+    margin-left:-40px ;
+}
+.previus__btn:active{
+    background-color: black;
+    color: white;
+}
+.next__btn:active{
+    background-color: black;
+    color: white;
+}
